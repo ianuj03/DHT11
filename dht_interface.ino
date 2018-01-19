@@ -6,7 +6,7 @@
 #include"DHT.h"
 DHT dht;
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(9600);//Setting up the baud rate
   dht.setup(7);//connecting Data pin of DHT11 to Digital pin 7.
   Serial.println("Status\tHumidity\tTemperature(C)\tTemperature(F)\tTemperature(k)");
 }

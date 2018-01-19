@@ -19,9 +19,9 @@ float tempf(float tempc){
 void loop(){
   tempc=dht.getTemperature();//Reading temperature in Celsius
   humidity=dht.getHumidity();//Reading Humidity in percentage
-  Serial.print(dht.getStatusString());
+  Serial.print(dht.getStatusString());//returns the status of the module.
   Serial.print("\t");
-  Serial.print(humidity,2);
+  Serial.print(humidity,2);//Print the value upto two decimal place
   Serial.print("(%)\t\t");
   Serial.print(tempc,2);
   Serial.print("C\t\t");

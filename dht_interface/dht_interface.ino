@@ -3,7 +3,7 @@
  * @ianuj03
  */
  
-#include"DHT.h"
+#include<DHT.h>
 DHT dht;
 void setup(){
   Serial.begin(9600);//Setting up the baud rate

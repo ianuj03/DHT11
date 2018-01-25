@@ -3,7 +3,7 @@
 DHT dht;
 LiquidCrystal lcd(8,9,2,3,4,5);//rs,en,d4,d5,d6,d7
 void setup(){
-  lcd.begin(16,2);//row,column
+  lcd.begin(16,2);//column,row
   dht.setup(7);//Connecting data pin of the DHT11 to digital pin 7
 }
 float tempc=0,humidity=0;

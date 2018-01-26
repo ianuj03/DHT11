@@ -2,6 +2,16 @@
 Interfacing DHT11 with Arduino UNO/Mega
 
 DHT11 is a module with two important sensors -Temperature and Humidity. The module is pretty cheap and the accuracy is applaudable.
+### Components:
+Name | Quantity
+-----|---------
+Arduino Board* | 1
+DHT11 | 1
+Jumper wire | 3+12
+LCD | 1 (Optional)
+Breadboard | 1
+
+*Any Ardunino Board will work.
 
 ### Connection:
 ##### DHT11:
